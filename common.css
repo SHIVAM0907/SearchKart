@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Wittgenstein", serif;
+}
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.arrange-left {
+  float: left;
+}
+.arrange-right {
+  float: right;
+}
+.wid-25 {
+  width: 25%;
+}
+.wid-33 {
+  width: 33.3%;
+}
+.wid-50 {
+  width: 50%;
+}
+.wid-75 {
+  width: 70%;
+}
+.next-row {
+  clear: both;
+}
+.common-button {
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 0;
+  background-color: #fff;
+  min-width: 50px;
+  text-align: center;
+  color: bla;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.common-button span {
+  font-size: 16px;
+  font-weight: 800;
+}
+.cart .cart-price h7 {
+  font-size: 15px;
+  margin: 0;
+  padding: 5px;
+  font-weight: 800;
+}
+.cart .cart-price h7.last-price {
+  text-decoration: line-through;
+  color: #555;
+}
+.margin-right-5 {
+  margin-right: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+  .wid-25,
+  .wid-33,
+  .wid-50,
+  .wid-75 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .arrange-left {
+    float: none;
+  }
+}
+.delivery-row {
+  background: #f9f9f9;
+}
+
+.delivery-details {
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
